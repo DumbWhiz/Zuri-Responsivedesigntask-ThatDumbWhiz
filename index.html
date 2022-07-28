@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/c8b06152e1.js" crossorigin="anonymous"></script>
     <title>Form Page</title>
 </head>
 
@@ -28,19 +29,31 @@
                 <div class="head">
                     <p><b>Try it free 7 days</b> then $20/mon. thereafter</p>
                 </div>
-                <form action="" class="form">
+                <form action="" class="form" id="form">
                     <div class="form-detail">
                         <div class="detail-box">
                             <input type="text" placeholder="First Name">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>First Name can not be empty</small>
                         </div>
                         <div class="detail-box">
                             <input type="text" placeholder="Last Name">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Last Name can not be empty</small>
                         </div>
                         <div class="detail-box">
                             <input type="email" placeholder="Email Address">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Looks like this is not an email</small>
                         </div>
                         <div class="detail-box">
                             <input type="password" placeholder="Password">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Password can not be empty</small>
                         </div>
                         <div class="button">
                             <input type="submit" value="claim your free trial">
