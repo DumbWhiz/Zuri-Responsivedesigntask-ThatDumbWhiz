@@ -20,7 +20,7 @@ function checkInputs() {
    if (firstnameValue === '') {
       //show error
       //add error class
-      setErrorfor(firstname, 'firstname can not be empty');
+      setErrorfor(firstname, 'firstname cannot be empty');
    } else {
       //add success class
       setSuccessfor(firstname);

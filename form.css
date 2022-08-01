@@ -124,6 +124,8 @@ body {
     position: absolute;
     bottom: -10px;
     right: 0;
+    font-size: 12px;
+
 }
 
 .form-container .form .detail-box.error small {
@@ -264,6 +266,11 @@ body {
         height: 600px;
     }
 
+    .form-container .form .detail-box small {
+        font-size: 12px;
+
+
+}
 
 }
 
@@ -291,13 +298,52 @@ body {
         align-items: center;
         display: flex;
     }
+
+    .form-container .form .detail-box small {
+        bottom: -5px;
+        font-size: 11px;
+        width: 85%;
+}
+}
+
+
+@media screen and (max-width:355px){
+
+    .form-container .form .form-detail {
+        height: px;
+    }
+
+    .form-container .form .detail-box small {
+        bottom: -10px;
+        right: 0;
+        font-size: 11px;
+        width: 100%;
+    }
+
+    /* RHS - Form Contianer - input */
+.form-container .form .detail-box input {
+    height: 50px;
+    font-size: 12px;
+    margin-bottom:2px;
+}
+
+/* RHS - Form Contianer - terms and condition */
+.form .form-detail .form-TandS {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.384);
+}
 }
 
 @media screen and (max-width:345px) {
 
     /* RHS - Form Contianer - input */
     .form-container .form .detail-box input {
-            font-size: 14px;
+            font-size: 12px;
+            margin-bottom: 7px;
         }
     /* RHS - Form Contianer - terms and condition */
     .form .form-detail .form-TandS {
@@ -310,42 +356,336 @@ body {
 
 @media screen and (max-width:335px) {
 
+    .form-container .form .detail-box small {
+        bottom: -20px;
+        font-size: 10px;
+        width: 150%;
+        right: -40px;
+    }
+    /* RHS - Form Contianer - input */
+.form-container .form .detail-box input {
+    height: 50px;
+    font-size: 12px;
+    margin-bottom:-5px;
+}
+
     /* RHS - Form Contianer - input */
 
-    .form-container .form .detail-box input {
+    .form-container .form .detail-box input {       
         font-size: 12px;
     }
-
     /* RHS - Form Contianer - input-container */
     .form-container .form .form-detail {
-        height: 650px;
+        height: 600px;
     }
 
     /* RHS - Form Contianer - terms and condition */
     .form .form-detail .form-TandS {
         font-size: 11px;
     }
+}  
+
+@media screen and (max-width:325px) {
+    
+    .form-container .form .detail-box.error input {
+        margin-bottom:10px;;
+    }
+    
+    .form-container .form .detail-box.error small {
+        bottom: -8px;
+        width: 100%;
+        right: 0px;
+    }
+
 }
 
 @media screen and (max-width:320px) {
+    
+    .form-container .form .detail-box.error input {
+        margin-bottom:px;
+        padding: 10px;
+    }
+    
+    .form-container .form .detail-box input {
+        padding: 20px;
+    }
 
-    /* RHS - Form Container - input-container */
+    .form-container .form .detail-box.error small {
+        bottom: -8px;
+        width: 110%;
+        right: -10px;
+    }
+
+    .form-container .form .detail-box.error small.psmall {
+        bottom: -10px;
+    }
+}
+
+@media screen and (max-width:319px) {
+    .form-container .form .detail-box.error small.psmall {
+        bottom: -20px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    
+    .form-container .form .detail-box.error input {
+        margin-bottom:15px;
+        padding: 10px;
+    }
+
+    .form-container .form .detail-box.error input#email {
+        margin-bottom:5px;
+        padding: 10px;
+    }
+    
+
+    .form-container .form .detail-box.error small {
+        bottom: -8px;
+        width: 100%;
+        right: -5px;
+    }
+
+}
+@media screen and (max-width:305px){
+    .form-container .form .detail-box.error input#pass {
+        margin-bottom: 8px;
+    }
+    .form-container .form .detail-box.error small.psmall{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:300px){
+    .form-container .form .detail-box.error input#email {
+        margin-bottom: 15px;
+    }
+}
+
+@media  screen and (max-width:285px){
+    .form-container .form .detail-box.error small.psmall{
+        width: 100%;
+        right: 100px;
+    }
+}
+@media screen and (max-width:295px) {
+
+    .form-container .form .detail-box input {
+        height: 40px;
+        width: 150%;
+        font-size: 10px;
+        font-weight: 700;
+        margin-left: -20px;
+        display: inline-block;
+        margin-bottom: px;
+    }
+   
+    .form-container .form .detail-box.error input {
+        margin-bottom:8px;
+        padding: 20px;
+    }
+
+    .form-container .form .detail-box.error input#email {
+        margin-bottom:2px;
+    }
+
+    .form-container .form .detail-box small {
+        bottom: -5px;
+        font-size: 11px;
+    
+    }
+
+    .form-container .form .detail-box.error small {
+        bottom: -10px;
+        width: 150%;
+        right: -30px;
+    }
+
+    .form-container .form .detail-box.error small.psmall{
+        bottom: -10px;
+        width: 150%;
+        right: -30px;
+    }
+    
+
+    /* RHS - Form Contianer - input-container */
+    .form-container .form .form-detail {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width:290px) {
+    .form-container .form .detail-box input {   
+        padding: 20px;
+    }
+
+    
+    .form-container .form .detail-box.error input {
+        margin-bottom:6px;
+    }
+
+    .form-container .form .detail-box.error small {
+        width: 150%;
+        right: -28px;
+        font-size: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:285px) {
+
+
+    .form-container .form .detail-box.error input {
+        margin-bottom:3px;
+    }
+    .form-container .form .detail-box.error small{
+        width: 150%;
+        bottom: -10px;
+        right: -20px;
+    }
+
+    .form-container .form .detail-box.error small.esmall{
+        right: -28px;
+    }
+
+    .form-container .form .detail-box.error small.psmall{
+        width: 150%;
+        bottom: -5px;
+        right: -20px;
+    }
+}
+
+@media screen and (max-width:279px){
+    
+    .form-container .form .detail-box.error input {
+        margin-bottom:5px;
+    }
+    
+    .form-container .form .detail-box.error input#email {
+        margin-bottom:5px;
+        right: -10px;
+    }
+
+    .form-container .form .detail-box.error input#pass {
+        margin-bottom:20px;
+    }
+
+    .form-container .form .detail-box.error small.psmall{
+        width: 150%;
+        bottom: -5px;
+        right: -20px;
+    }
+
+}
+
+@media screen and (max-width:278px){
+    
+    .form-container .form .detail-box.error input {
+        margin-bottom:20px;
+    }
+    
+    .form-container .form .detail-box.error input#email {
+        margin-bottom:5px;
+        right: -10px;
+    }
+
+    .form-container .form .detail-box.error input#pass {
+        margin-bottom:20px;
+    }
+
+    .form-container .form .detail-box.error small.psmall{
+        width: 150%;
+        bottom: -5px;
+        right: -20px;
+    }
+}
+
+@media screen and (max-width:275px) {
+
+    /* RHS - Form Contianer - input-container */
     .form-container .form .form-detail {
         height: 700px;
     }
 
-     /* RHS - Form Contianer - terms and condition */
-    .form .form-detail .form-TandS {
-        width: 100px;
+    .form-container .form .detail-box.error input {
+        margin-bottom:15px;
+    }
+    
+    .form-container .form .detail-box.error input#pass {
+        margin-bottom:20px;
+    }
+    
+    .form-container .form .detail-box.error input#email {
+        margin-bottom:5px;
+    }
+
+
+    .form-container .form .detail-box.error small {
+        right: -15px;
+        font-size: 10px;
+    }
+    
+    .form-container .form .detail-box.error small.esmall {
+        right: -20px;
+    }
+
+
+    .form-container .form .detail-box.error small.psmall {
+        right: -15px;
     }
 }
 
-@media screen and (max-width:185px) {
+@media screen and (max-width:270px) {
 
-    /* Body */
-    body {
-        padding: 0;
-        margin: 0;
-        width: 100vw;
+    .form-container .form .detail-box.error input#email {
+        margin-bottom:5px;
+    }
+
+    @media screen and (max-width:267px) {
+
+        .form-container .form .detail-box.error input#email {
+            margin-bottom:15px;
+        }
+    }
+    .form-container .form .detail-box.error small {
+        right: -15px;
+    }
+
+    .form-container .form .detail-box.error small.esmall {
+        right: -13px;
+    }
+}
+
+@media screen and (max-width:255px) {
+
+    .form-container .form .detail-box input {
+        height: 40px;
+        width: 150%;
+        font-size: 10px;
+        font-weight: 700;
+        margin-left: -20px;
+        display: inline-block;
+    }
+
+    
+    .form-container .form .detail-box.error input {
+        border-color: hsl(0, 100%, 74%);
+        margin-bottom:15px ;
+        padding: 20px;
+    }
+
+    .form-container .form .detail-box small {
+        bottom: -10px;
+        font-size: 5px;
+    
+    }
+
+    .form-container .form .detail-box.error small {
+        color: hsl(0, 100%, 74%);
+        visibility: visible;
+        width: 150%;
+        right: -15px;
+        font-size: 10px;
     }
 }
